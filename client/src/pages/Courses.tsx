@@ -92,7 +92,7 @@ export default function Courses() {
         {/* Courses Background */}
         <div className="mb-16 rounded-2xl overflow-hidden border border-primary/20 h-64 md:h-80">
           <img
-            src="/images/courses-pattern.png"
+            src={`${import.meta.env.BASE_URL}images/courses-pattern.png`}
             alt="Courses visualization"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
           />

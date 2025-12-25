@@ -117,7 +117,7 @@ export default function Projects() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/images/projects-bg.png')",
+            backgroundImage: `url(${import.meta.env.BASE_URL}images/projects-bg.png)`,
           }}
         />
       </div>

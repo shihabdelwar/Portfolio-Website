@@ -84,7 +84,7 @@ export default function Experience() {
         {/* Experience Background */}
         <div className="mb-16 rounded-2xl overflow-hidden border border-primary/20 h-64 md:h-80">
           <img
-            src="/images/experience-bg.png"
+            src={`${import.meta.env.BASE_URL}images/experience-bg.png`}
             alt="Experience visualization"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
           />

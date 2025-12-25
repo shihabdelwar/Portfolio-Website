@@ -38,7 +38,7 @@ export default function About() {
             >
               <div className="aspect-square bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center">
                 <img
-                  src="/images/about-hero.png"
+                  src={`${import.meta.env.BASE_URL}images/about-hero.png`}
                   alt="Delwar Shihab"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
