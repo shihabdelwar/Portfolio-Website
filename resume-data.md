@@ -1,7 +1,7 @@
 # Delwar Shihab - Resume Data
 
 ## Personal Information
-- **Name**: Delwar Shihab
+- **Name**: Shihab Delwar
 - **Location**: New York City, NY
 - **Email**: shihabdelwar@gmail.com
 - **LinkedIn**: linkedin.com/in/shihab-delwar
