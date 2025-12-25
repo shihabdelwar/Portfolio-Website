@@ -18,11 +18,11 @@ import Skills from "./pages/Skills";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Courses from "./pages/Courses";
-import { Router as WouterRouter } from "wouter";
+import { Router as WouterHashRouter} from "wouter";
 
 function Router() {
   return (
-    <WouterRouter base="/Portfolio-Website">
+    <WouterHashRouter base="/Portfolio-Website">
       <Navigation />
       <Switch>
         <Route path={"/"} component={Home} />
@@ -34,7 +34,7 @@ function Router() {
         <Route path={"/404"} component={NotFound} />
         <Route component={NotFound} />
       </Switch>
-    </WouterRouter>
+    </WouterHashRouter>
   );
 }
 
