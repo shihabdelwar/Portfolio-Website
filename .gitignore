@@ -4,8 +4,8 @@
 
 # # Build outputs
 # dist/
-# build/
-# *.dist
+build/
+*.dist
 
 # Environment variables
 .env
